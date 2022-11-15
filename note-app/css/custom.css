@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 100px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 189, 0, 41%);
+    box-sizing: border-box;
+    padding: 6%;
+
+}
+.navbar img{
+    width: 50%;
+    height: auto;
+
+}
+
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color:rgba(212, 255, 178, 40%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 170px;
+    background-color: #006722;
+    color: white;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    width:150px;
+    box-shadow: 2px 2px 70px #2d3436;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid rgb(5, 5, 5);
+}
+#addBtn:hover{
+    background-color: #2a5439;
+    height: 45px;
+    width: 145px;
+}
+
+.note {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 15px;
+    margin-top: 55px;
+    
+
+}
+
+.tool {
+    width: 100%;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    background-color: hsl(140, 100%, 20%);
+    border: 2px solid hsl(140, 100%, 20%);
+    border-bottom: #006722;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note {
+    margin-top: 150px;
+    background-color:rgba(181, 255, 178, 25%);
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    background-color:rgba(181, 255, 178, 25%);
+      border: 1px solid hsl(140, 100%, 20%);
+    
+    border-top: none;
+}
+
+.note textarea:focus {
+    outline: 0;
+}
+
+.foot{
+    background-color:  rgba(6, 189, 0, 41%);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#1f422b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid hsl(140, 100%, 20%);
+    border-bottom: 0px;
+
+
+}
+.foot div{
+    display: flex;
+}
+.foot h5{
+    margin-right: 20px;
+}
+.foot ul {
+    display: flex;
+}
+.foot ul li{
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.email{
+    /* margin-left: auto;    */
+
+}
+.eicon{
+    margin-right: 20px;  
+    cursor: pointer;
+
+}
+.cpr{
+    text-align: center;
+    background-color: #2d3436;
+    color: white;
+    font-family:sans-serif;
+    padding: 4px;
+    border-left:2px solid hsl(141, 95%, 8%);
+    border-right:2px solid hsl(141, 95%, 8%);
+
+}
