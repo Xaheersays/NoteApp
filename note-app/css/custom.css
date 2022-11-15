@@ -20,8 +20,6 @@
     height: auto;
 
 }
-
-
 #main {
     width: 100%;
     min-height: 100vh;
@@ -127,10 +125,6 @@
     list-style: none;
     margin-left: 10px;
     cursor: pointer;
-}
-.email{
-    /* margin-left: auto;    */
-
 }
 .eicon{
     margin-right: 20px;  
